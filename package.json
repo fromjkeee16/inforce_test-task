@@ -13,7 +13,7 @@
     "deploy": "gh-pages -d dist",
     "format": "prettier ./src --write",
     "prepare": "husky",
-    "server": "json-server db.json --port 3000"
+    "server": "json-server --watch db.json --port 3000"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -49,6 +49,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "husky": "^9.1.7",
+    "json-server": "^1.0.0-beta.3",
     "lint-staged": "^16.1.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
