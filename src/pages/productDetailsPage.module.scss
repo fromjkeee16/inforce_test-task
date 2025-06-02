@@ -1,0 +1,72 @@
+.container {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.backButton {
+  background: none;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #007bff;
+    color: white;
+  }
+}
+
+.productCard {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.productTitle {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productCount {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.commentsSection {
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+}
+
+.commentsSection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.loadingText,
+.errorText {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.errorText {
+  color: #e74c3c;
+}

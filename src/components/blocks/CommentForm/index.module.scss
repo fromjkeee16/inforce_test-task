@@ -1,0 +1,33 @@
+.form {
+  max-width: 600px;
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  color: #222;
+}
+
+.errorText {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+
+  & &__submit {
+    background-color: #337612;
+  }
+}

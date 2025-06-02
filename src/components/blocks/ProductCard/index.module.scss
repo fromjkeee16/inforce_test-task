@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  &__count {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+  }
+
+  &__characteristics {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+  }
+
+  & &__link {
+    text-decoration: none;
+    color: inherit;
+    background-color: #337612;
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "imageUrl": "https://placecats.com/millie/300/300",
+      "name": "Product ABCDEF",
+      "count": "10",
+      "size": {
+        "width": 100,
+        "height": 200
+      },
+      "weight": "500g"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://placecats.com/neo/300/300",
+      "name": "Product B",
+      "count": 5,
+      "size": {
+        "width": 150,
+        "height": 250
+      },
+      "weight": "750g"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://placecats.com/bella/300/300",
+      "name": "Product C",
+      "count": 20,
+      "size": {
+        "width": 120,
+        "height": 220
+      },
+      "weight": "600g"
+    },
+    {
+      "id": "8368",
+      "imageUrl": "https://placecats.com/poppy/300/300",
+      "name": "Product C",
+      "count": "5",
+      "size": {
+        "width": "3",
+        "height": "4"
+      },
+      "weight": "500"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://placecats.com/millie_neo/300/300",
+      "name": "Olaf",
+      "count": "5",
+      "size": {
+        "width": "6",
+        "height": "5"
+      },
+      "weight": "500g"
+    },
+    {
+      "id": "a840",
+      "imageUrl": "https://placecats.com/neo_banana/300/300",
+      "name": "Banana brain",
+      "count": "155",
+      "size": {
+        "width": "25",
+        "height": "255"
+      },
+      "weight": "500"
+    }
+  ],
+  "comments": [
+    {
+      "id": "3",
+      "productId": 2,
+      "description": "The size is perfect for my needs.",
+      "date": "2025-06-01T09:00:00Z"
+    },
+    {
+      "id": "4",
+      "productId": 2,
+      "description": "Weight is a bit heavy but manageable.",
+      "date": "2025-06-03T11:45:00Z"
+    },
+    {
+      "id": "5",
+      "productId": 3,
+      "description": "Amazing quality, will buy again.",
+      "date": "2025-06-02T13:20:00Z"
+    },
+    {
+      "id": "6",
+      "productId": 3,
+      "description": "Delivery was fast and product matches description.",
+      "date": "2025-06-04T16:00:00Z"
+    }
+  ]
+}

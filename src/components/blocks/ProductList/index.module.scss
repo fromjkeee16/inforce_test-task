@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.modal_controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  &__confirm {
+    background-color: #337612;
+  }
+}
