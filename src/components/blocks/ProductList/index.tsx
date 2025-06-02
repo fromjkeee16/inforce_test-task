@@ -13,10 +13,10 @@ type Props = {
 
 export const ProductList: React.FC<Props> = ({ list }) => {
   const dispatch = useAppDispatch();
-  const [selectedId, setSelectedId] = useState<number | null>(null);
+  const [selectedId, setSelectedId] = useState<Product['id'] | null>(null);
 
   const handleDelete = () => {
-    dispatch(deleteProduct(selectedId!));
+    dispatch(deleteProduct(selectedId as number));
   };
 
   return (

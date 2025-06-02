@@ -21,7 +21,7 @@ import { DescriptionField } from '../components/blocks/DescriptionField';
 
 export const ProductDetailsPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const productId = Number(id);
+  const productId = id as string;
   const navigate = useNavigate();
 
   const dispatch = useAppDispatch();
@@ -33,10 +33,8 @@ export const ProductDetailsPage: React.FC = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   useEffect(() => {
-    if (!isNaN(productId)) {
-      dispatch(fetchProductById(productId));
-      dispatch(fetchComments(productId));
-    }
+    dispatch(fetchProductById(productId));
+    dispatch(fetchComments(productId));
 
     return () => {
       dispatch(clearProductDetails());

@@ -28,9 +28,9 @@ const initialState: ProductDetailsState = {
   commentsError: null,
 };
 
-export const fetchProductById = createAsyncThunk<Product, number>(
+export const fetchProductById = createAsyncThunk<Product, Product['id']>(
   'productDetails/fetchProductById',
-  id => getProductById(id.toString()),
+  id => getProductById(id),
 );
 
 export const fetchComments = createAsyncThunk<Comment[], number>(
