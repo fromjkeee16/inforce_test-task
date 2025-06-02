@@ -8,14 +8,14 @@
 npm i
 ```
 
-2. Start the React app:
-
-```bash
-npm start
-```
-
-3. In a separate terminal, start the JSON server:
+2. Start the JSON server:
 
 ```bash
 npm run server
+```
+
+3. In a separate terminal, Start the React app:
+
+```bash
+npm start
 ```
